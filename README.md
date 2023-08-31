@@ -68,5 +68,16 @@ npm run start
 ```
 
 > NOTE - We will have to edit the **inbound rules** in the security group of our EC2, in order to allow traffic from our particular port
+####
+To allow visibility of your app running in your aws ec2 instance, do this :
+
+Go to "Instances"
+Select your instance
+Go to its "Security"
+Select its "Security groups"
+In "Inbound rules" part, select "Edit Inbound rules"
+Select "Add rule"
+And then add the port on which your instance is exposed and save.
+####
 
 ### Project is deployed on AWS 🎉
